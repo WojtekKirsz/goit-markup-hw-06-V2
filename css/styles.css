@@ -496,6 +496,69 @@ body {
   background-color: var(--standard-blue);
 }
 
+.newsletter-header {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--standard-white);
+  text-transform: uppercase;
+  margin-left: 78px;
+  padding-top: 12px;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  margin-left: 78px;
+}
+
+.newsletter-form input {
+  width: 384px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+  padding-top: 15px;
+  padding-left: 16px;
+  padding-bottom: 15px;
+  margin-right: 12px;
+}
+
+input::placeholder {
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+fieldset {
+  border: none;
+  display: flex;
+}
+
+.button-newsletter-wrapper {
+  background: var(--standard-blue);
+  border: none;
+  cursor: pointer;
+  padding: 13px 26px 13px 42px;
+  border-radius: 4px;
+}
+
+.button-newsletter-text {
+  font-family: "Roboto", sans-serif;
+  color: var(--standard-white);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+}
+
+.button-newsletter {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 /* FOOTER END */
 
 /* PORTFOLIO START */
