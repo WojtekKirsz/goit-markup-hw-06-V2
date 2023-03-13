@@ -546,10 +546,8 @@ fieldset {
 }
 
 .button-newsletter-text {
-  font-family: "Roboto", sans-serif;
   color: var(--standard-white);
   font-weight: 700;
-  font-size: 16px;
   letter-spacing: 0.06em;
 }
 
